@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link rel="icon" href="./images/twitter.svg" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="dark-mode-1">
+
+  <!--PreLoader-->
+    <div class="loading-screen">
+        <div class="loading-animation">
+          <img src="./images/twitter.svg" alt="" class="logo">
+          <div class="loading-bar"></div>
+        </div>
+      </div>
+  <!--end of Preloade -->
+
+<div class="container">
+  <!-- Main Page -->
+  <section class="main-page">
+    <!--Right Left Container-->
+    <div class="Right-Left-Container">
+    <!--Left-->
+      <div class="left">
+          <div class="left-content">
+              <div>
+                <i class="fas fa-search"></i>
+                <h3 class="left-content-heading">Find Your Interests</h3>
+              </div>
+              <div>
+                <i class="fas fa-user-friends"></i>
+                <h3 class="left-content-heading">Explore What People are Talking About</h3>
+              </div>
+              <div>
+                <i class="fas fa-comment"></i>
+                <h3 class="left-content-heading">Join The People</h3>
+              </div>
+          </div>
+      </div>
+    <!--End Of Left-->
+    <!-- Right -->
+      <div class="right">
+              <div class="right-content">
+                  <form action="" method="" class="right-content-form">
+                    <input type="text" class="user-info" placeholder="phone, email, or username" >
+                    <div>
+                        <input type="password" class="user-password" placeholder="password">
+                        <label for="">Forgot Password</label> 
+                    </div>
+                    <button type="button" class="btn-top">Log in</button>
+                  </form>
+              </div>
+              <div class="middle-content">
+                    <i class="fas fa-dove"></i>
+                    <h1>Explore What's Hapenning in The World</h1>
+                    <h4>Join Twitter Today</h4>
+                    <button type="button" class="sign-up main-btn">Sign Up</button>
+                    <button type="button" class="log-in main-btn">Log in</button>
+              </div>
+      </div>
+    </div>
+    <!-- End of Right -->
+    <!-- Footer -->
+     <!--  <footer class="main-page-footer">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Brand</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">&copy; 2020 Twitter</a></li>
+          </ul> 
+      </footer> -->
+    <!--End of Footer -->
+  </section>
+  <!-- End of Main Page-->
+  <!-- Login Page -->
+    <section class="login-page">
+      <!-- login page nav -->
+      <nav class="login-page-nav">
+        <ul>
+          <li class="brand" id="loginHome">
+              <a href="JavaScript:void(0);"><i class="fas fa-dove"></i>Home</a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Language : English</a></li>
+        </ul>
+      </nav>
+      <!--end of login nav page-->
+      <!--Login-->
+      <div class="login-container">
+      <div class="login">
+          <div class="login-content">
+            <h2>Log in To Twitter</h2>
+            <form action="" method="" class="login-form">
+              <input type="text" placeholder="Phone, email, or username" class="login-user-info">
+              <input type="password" placeholder="password" class="login-password">
+              <div>
+                <button type="button" class="login-form-btn">Log In</button>
+                <div>
+                  <input type="checkbox" class="login-form-checkbox" id="check">
+                  <label for="check">Remember Me</label>
+                  <a href="#">Forget Password?</a>
+               </div>
+              </div>
+            </form>
+          </div>
+          <footer class="login-footer">
+            <p>
+              New To Twitter ?
+              <a href="#">Sign Up Now</a>
+            </p>
+            <p>
+                Already Using Twitter Via Text Message?
+                <a href="#">Activate Your Account</a> 
+            </p>
+
+          </footer>
+      </div>
+    
+          <!--login Modal-->
+        <div class="login-modal">
+          <i class="fas fa-times"></i>
+          <p>
+            The username and password you entered didn't match our records , please Double check and try again
+          </p>
+        </div>
+      </div>
+        <!--end modal-->
+    </section>
+    <!--end ofLogin-->
+    <!--Sign Up-->
+    <section class="signup-page">
+      <!-- signup page page nav -->
+      <nav class="signup-page-nav">
+        <ul>
+          <li class="brand" id="signHome">
+              <a href="JavaScript:void(0);"><i class="fas fa-dove"></i>Home</a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Language : English</a></li>
+        </ul>
+      </nav>
+      <!--end of signup nav page-->
+      <!--signup-->
+      <div class="signup-container">
+      <div class="signup">
+          <div class="signup-content">
+            <h2>Sign Up To Twitter</h2>
+            <form action="" method="" class="signup-form">
+              <input type="text" placeholder="email" name="" id="">
+              <input type="text" placeholder="Phone" name="" id="">
+              <input type="text" placeholder="username" name="" id="">
+              <input type="password" name="" id="" placeholder="password">
+              <div>
+                <button type="button" class="signup-form-btn">Sign Up</button>  
+              </div>
+            </form>
+          </div>
+          <footer class="signup-footer">
+            <p>
+              already a member ?
+              <a href="#">Log in</a>
+            </p>
+            <p>
+                Already Using Twitter Via Text Message?
+                <a href="#">Activate Your Account</a> 
+            </p>
+
+          </footer>
+      </div>
+    </div>
+      <!--end of signup-->
+    </section>
+  <!-- End signup Page -->
+  <!--feeds Page-->
+    <section class="feeds-page dark-mode-1">
+      <!--feeds nav-->
+      <nav class="feeds-nav dark-mode-2">
+        <div class="icons">
+            <a href="#" class="active">
+              <i class="fas fa-home"></i>
+            </a>
+            <a href="#">
+              <i class="fas fa-hashtag"></i>
+            </a>
+            <a href="#">
+              <i class="far fa-envelope"></i>
+            </a>
+            <a href="#">
+              <i class="far fa-bell"></i>
+            </a>
+        </div>
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="" placeholder="Search Twitter" class="search-bar-input dark-mode-1 border">
+        </div>
+        <div class="user">
+          <div class="user-img-wrapper">
+              <img src="./images/z.jpg" alt="">
+          </div>
+          <a href="#" class="user-link light-text">abdoelaziz <img src="./images/palestine.png" alt=""></a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </nav>
+      <!--End of feeds nav-->
+      <!--Feeds content -->
+      <div class="feeds-content">
+      <div class="home-time-container">
+        <div class="home-time">
+            <div class="feeds-header dark-mode-2">
+              <div class="header-top border">
+                <h4 class="light-text">Home</h4>
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="header-post dark-mode-2 border">
+                <div class="header-img-wrapper">
+                  <img src="./images/z.jpg" alt="">
+                </div>
+                <input type="text" placeholder="what's happening?" class="dark-mode-1 light-text border">
+                <i class="far fa-image"></i>
+                <i class="fas fa-camera"></i>
+                <i class="far fa-chart-bar"></i>
+              </div>
+            </div>
+            <div class="posts dark-mode-2">
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/KOdxkOwx_400x400-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>Med-hat Dawoud</h4><span class="light-user">@Med7atDawoud</span>
+                    </div>
+                    <p class="post-text light-text">
+                      الشباب اللي لسة بادئ في مجال البرمجة .. روحوا اشتغلوا في تيم .. متشتغلش لواحدك في الاول ابدا .. والله مافيه حاجة تعوض الشغل في تيم .. لساني نشف بقول للناس اللي بتبعتلي ع الخاص ومحتارين يكونوا ريموت او لا .. الشغل في فريق بيسهل تعلم حاجات كتير اوى ممكن تاخد ايام في دقايق عن تجربة
+                    </p>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox" />
+                        <label for="checkbox">
+                        <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                        </svg>
+                        </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/qur2an-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>المُصْحَف</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span class="light-user">@AlMosahf</span>
+                    </div>
+                    <p class="post-text light-text">
+                      وَمَنْ أَعْرَضَ عَنْ ذِكْرِي فَإِنَّ لَهُ مَعِيشَةً ضَنْكًا وَنَحْشُرُهُ يَوْمَ الْقِيَامَةِ أَعْمَى (124) قَالَ رَبِّ لِمَ حَشَرْتَنِي أَعْمَى وَقَدْ كُنْتُ بَصِيرًا (125) قَالَ كَذَلِكَ أَتَتْكَ آيَاتُنَا فَنَسِيتَهَا وَكَذَلِكَ الْيَوْمَ تُنْسَى (126) وَكَذَلِكَ نَجْزِي مَنْ أَسْرَفَ وَلَمْ يُؤْمِنْ بِآيَاتِ رَبِّهِ وَلَعَذَابُ الْآخِرَةِ أَشَدُّ وَأَبْقَى (127)
+                    </p>
+                    <div class="post-img">
+                      <img src="./images/EYEXziGXsAEs18f-min.jpg" alt="">
+                    </div>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox2" />
+                          <label for="checkbox2">
+                            <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                            </svg>
+                          </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/3I69n-qd_400x400-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>El Joker - الجوكر</h4>
+                        <span class="light-user">@EljokerLyrics</span>
+                    </div>
+                    <p class="post-text light-text">
+                      بسعى للمثالية ، وعارف إني مش هلحقها بس هفضل ببقى أحسن كل يوم عن اللي قبله وده يستاهل إني أتعبله ، ويطمنّي وأنا بقابله
+                    </p>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox4" />
+                        <label for="checkbox4">
+                        <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                        </svg>
+                        </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/osama-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>Osama Elzero</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span class="light-user">@Osama_Elzero</span>
+                    </div>
+                    <p class="post-text light-text">
+                          php => echo "Hello World";<br>
+                          js  => console.log("Hello World");<br>
+                          c#  => console.WriteLine("Hello World");<br>
+                          R   => puts "Hello World"<br>
+                          python => print "Hello World"<br>
+                          java   => System.out.printIn("Hello World");
+                    </p>
+                    <div class="post-img">
+                      <img src="./images/article-soon-min.jpg " alt="">
+                    </div>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox1" />
+                          <label for="checkbox1">
+                            <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                            </svg>
+                          </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/yh9d3hkU_400x400-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>ANIME SHOT</h4>
+                        <span class="light-user">@animesh0T</span>
+                    </div>
+                    <div class="post-img">
+                      <img src="./images/EYEXziGXsAEs18f-min.jpg" alt="">
+                    </div>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox1" />
+                          <label for="checkbox1">
+                            <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                            </svg>
+                          </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/HM86aYK2_200x200-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>أدهم شرقاوي</h4>
+                        <i class="fas fa-check-circle"></i>
+                        <span class="light-user">@adhamsharkawi</span>
+                    </div>
+                    <p class="post-text light-text">
+                      "ومن علامات الإنتكاس
+                      أن تسمع الأذان فلا تستجيب
+                      وأن تفوتك صلاة الفجر ولا تُبالي
+                      وأن تهجُرَ القرآن ولا تخاف
+                      وأن يُمنع عنك الخير ولا تهتم
+                      وأن تُحرم من الصُحبة الصالحة ولا تفتقدها
+                      وأن تفعل الذنب ولا تحزن
+                      وأن لا يكون لك ورد قرآن وتسبيح ولا تستوحش"
+                      فاللهم ثباتاً فإن القلوب بيدك
+                    </p>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox5" />
+                        <label for="checkbox5">
+                        <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                        </svg>
+                        </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/palestine.png" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>قطوف من الآسك</h4>
+                        <span class="light-user">@Qutooff_Tw</span>
+                    </div>
+                    <div class="post-img">
+                      <img src="./images/EYEXziGXsAEs18f-min.jpg" alt="">
+                    </div>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox10" />
+                          <label for="checkbox10">
+                            <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                            </svg>
+                          </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+              <div class="post border">
+                <div class="user-avatar">
+                  <img src="./images/6EWheKZI_400x400-min.jpg" alt="">
+                </div>
+                <div class="post-content">
+                    <div class="post-user-info light-text">
+                        <h4>Hazem El Seddiq</h4>
+                        <span class="light-user">@hzmsdq</span>
+                    </div>
+                    <p class="post-text light-text">
+                      حاول ترجع نفسك للفترة اللي لو شوفت فيها حاجه حرام تتخض
+                    </p>
+                    <div class="post-icons">
+                      <i class="far fa-comment"></i>
+                      <i class="fas fa-retweet"></i>
+                      <i>  
+                        <input type="checkbox" class="checkbox" id="checkbox6" />
+                        <label for="checkbox6">
+                        <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"/>
+                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"/>
+                      
+                                <g id="grp7" opacity="0" transform="translate(7 6)">
+                                  <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"/>
+                                  <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp6" opacity="0" transform="translate(0 28)">
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp3" opacity="0" transform="translate(52 28)">
+                                  <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"/>
+                                  <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp2" opacity="0" transform="translate(44 6)">
+                                  <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"/>
+                                  <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp5" opacity="0" transform="translate(14 50)">
+                                  <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp4" opacity="0" transform="translate(35 50)">
+                                  <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"/>
+                                  <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"/>
+                                </g>
+                      
+                                <g id="grp1" opacity="0" transform="translate(24)">
+                                  <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"/>
+                                  <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"/>
+                                </g>
+                              </g>
+                        </svg>
+                        </label>
+                      </i>
+                      <i class="fas fa-share"></i>
+                    </div>
+                </div>  
+              </div>
+            </div>
+        </div>
+      </div>
+          <div class="follow dark-mode-2">
+            <h3 class="follow-heading light-text border">Who To Follow</h3>
+            <div class="follow-user border">
+              <div class="follow-user-img">
+                <img src="./images/46XJznR2_400x400.png" alt="">
+              </div>
+              <div class="follow-user-info light-text">
+                <h4>Adobe Photoshop</h4>
+                <p class="light-user">@Photoshop</p>
+              </div>
+              <button class="follow-btn dark-mode-1" type="button">follow</button>
+            </div>
+            <div class="follow-user border">
+              <div class="follow-user-img">
+                <img src="./images/GX_AiNX5_400x400.jpg" alt="">
+              </div>
+              <div class="follow-user-info light-text">
+                <h4>𝗥𝗮𝘃𝗶𝗻</h4>
+                <p class="light-user">@ravinwashere</p>
+              </div>
+              <button class="follow-btn dark-mode-1" type="button">follow</button>
+            </div>
+            <div class="follow-user border">
+              <div class="follow-user-img">
+                <img src="./images/yh9d3hkU_400x400-min.jpg" alt="">
+              </div>
+              <div class="follow-user-info light-text">
+                <h4>ANIME SHOT</h4>
+                <p class="light-user">@animesh0T</p>
+              </div>
+              <button class="follow-btn dark-mode-1" type="button">follow</button>
+            </div>
+            <div class="follow-link">
+              <a href="#">Show More</a>
+            </div>
+            <!-- <footer class="follow-footer dark-mode-2 border">
+              <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">More</a></li>
+              </ul>
+            </footer> -->
+          </div>
+      </div>
+      <!--end of Feeds content -->
+      <!--post btn-->
+      <button type="button" class="post-btn">
+        +<i class="fas fa-feather-alt"></i> post
+      </button>
+      <button type="button" class="post-btn1">
+        +<i class="fas fa-feather-alt"></i>
+      </button>
+      <!--Post Modal-->
+        <div class="modal-wrapper">
+          <div class="modal dark-mode-2">
+              <div class="modal-header border">
+                  <i class="fas fa-times"></i>
+                  <button type="button">Post</button>
+              </div>
+              <div class="modal-body">
+                <div class="modal-img">
+                  <img src="./images/z.jpg" alt="">
+                </div>
+                <input type="text" placeholder="What's happening?" class="modal-input dark-mode-1 light-text border">
+                <i class="far fa-smile"></i>
+              </div>
+              <div class="modal-footer">
+                  <div class="modal-icons">
+                      <i class="far fa-image"></i>
+                      <i class="fas fa-camera"></i>
+                      <i class="far fa-chart-bar"></i>
+                      <span>+</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+      <!--end Post Modal-->
+
+      <!-- Side Bar -->
+      <div class="sidebar-wrapper">
+         <div class="sidebar dark-mode-2">
+            <div class="sidebar-header border">
+              <h2 class="light-text">Account info</h2>
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="sidebar-user">
+                <div class="sidebar-user-img">
+                  <img src="./images/z.jpg" alt="" width="40">
+                </div>
+                <span>+</span>
+            </div>
+            <div class="sidebar-user-info">
+              <h4 class="light-text">abdoelaziz Gamal <img src="./images/palestine.png" alt=""></h4>
+              <p class="light-user">@abdoelaziz</p>
+            </div>
+            <div class="following">
+              <p class="following-pragraph light-user">
+                <span>625 </span>Following
+              </p>
+              <p class="following-pragraph light-user">
+                <span>710 </span>Followers
+              </p>
+            </div>
+            <div class="sidebar-list-1 border">
+              <ul>
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="far fa-bell"></i> Notifications</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i> Messages</a></li>
+                <li><a href="#"><i class="far fa-list-alt"></i> Lists</a></li>
+                <li><a href="#"><i class="far fa-bookmark"></i> Bookmarks</a></li>
+              </ul>
+            </div>
+            <div class="sidebar-list-2">
+              <ul>
+                <li><a href="#">Settings and Privacy</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li class="logout"><a href="#">Log Out</a></li>
+              </ul>
+            </div>
+            <!--Dark Mode-->
+              <div class="dark-mode">
+                  <p>Dark Mode</p>
+                  <div class="toggle">
+                    <div class="circle">
+
+                    </div>
+                  </div>
+              </div>
+            <!--end Dark Mode-->
+         </div>
+      </div>
+      <!-- end Side Bar -->
+      <!--Message Box-->
+      <div class="message dark-mode-2 border">
+        <div class="message-header dark-mode-2 border">
+          <h1 class="light-text">Messages</h1>
+          <div class="icons">
+            <i class="far fa-envelope"></i>
+            <i class="fas fa-angle-double-up"></i>
+          </div>
+        </div>
+        <div class="request light-text border">
+           <span>Message requests </span> <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="messages border">
+          <div class="user-avatar">
+              <img src="./images/khaled.jpg" alt="">
+          </div>
+          <div class="user-info">
+            <h4 class="light-text">Khalid Gamal</h4>
+            <span class="light-user">@engkhalidgamal</span>
+            <p class="light-user">..ربنا يخليك ليا ويديمك </p>
+        </div>
+        </div>
+        
+      </div>
+      
+      <!--End Message Box-->
+    </section>
+    <div class="showing-wrapper">
+      <img src="" alt="" class="preview">
+      <i class="fas fa-times"></i>
+    </div>
+  <!--end of feeds Page-->
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>
